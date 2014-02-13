@@ -4,7 +4,7 @@ module.exports = {
 
     autoPK: false,
     schema: true,
-  	attributes: {
+    attributes: {
   	
         id: {
             type: 'uuidv4',
@@ -14,7 +14,7 @@ module.exports = {
         }
 	  	firstName: 'STRING'
     
-  },
+    },
     beforeValidation: function(values, cb) {
         values.id = uuid.v4();
 
