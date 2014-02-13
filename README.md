@@ -1,4 +1,2 @@
-attackofthecode-node
-====================
+# attackofthecode-com
 
-Source for attackofthecode.com online tools for development nodejs iteration.
